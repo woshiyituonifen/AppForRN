@@ -1,20 +1,83 @@
 import React, {Component} from "react";
 
-import {View, Text, StyleSheet} from "react-native";
+import {View, Text, StyleSheet, Dimensions, Image} from "react-native";
+import Carouisel from "react-native-looped-carousel";
 
-export default class Home extends Component{
-    render(){
-        return(
-            <View style={styles.container}>
-                <Text>
-                    dhjiqhf
-                </Text>
+// 获取屏幕宽度
+const {width} = Dimensions.get('window');
+
+// 布局
+const styles = StyleSheet.create({
+    //轮播
+    images: {
+        width: "100%",
+        height: "100%"
+    },
+    // 导航条
+
+})
+
+export default class Home extends Component {
+    // 构造函数
+    constructor(props) {
+        super(props);
+        this.state = {
+            size: {
+                width, height: 250
+            }
+        }
+    }
+
+    render() {
+        return (
+            <View style={this.state.size}>
+                <Carouisel
+                    dalay={3000}
+                    style={this.state.size}
+                    autoplay
+                    bullets
+                    arrows
+                    leftArrowText={'<'}
+                    leftArrowStyle={{color: 'red', fontSize: 30, margin: 20}}
+                    rightArrowText={'>'}
+                    rightArrowStyle={{color: "red", fontSize: 30, margin: 20}}
+                >
+                    <View style={this.state.size}>
+                        <Image
+                            style={styles.images}
+                            resizeMode='stretch'
+                            source={{
+                                uri:
+                                    "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2545472803.jpg"
+                            }}
+                        />
+                    </View>
+                    <View style={this.state.size}>
+                        <Image
+                            style={styles.images}
+                            source={{
+                                uri:
+                                    "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2542973862.jpg"
+                            }}
+                        />
+
+                    </View>
+                    <View style={this.state.size}>
+                        <Image
+                        style={styles.images}
+                        source={{
+                            uri:
+                            "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2541240741.jpg"
+                        }}
+                        />
+                    </View>
+                </Carouisel>
             </View>
         )
     }
 
 }
-const styles = StyleSheet.create({
+const stylesss = StyleSheet.create({
     container: {
         flex: 1,
         justifyContent: 'center',
