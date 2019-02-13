@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d1708bc-237d-4abb-9fca-0f8bf4a75898" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myapp/AppContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myapp/AppContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myapp/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Myapp/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myapp/android/app/src/main/java/com/myapp/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Myapp/android/app/src/main/java/com/myapp/MainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myapp/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Myapp/android/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myapp/ios/Myapp.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Myapp/ios/Myapp.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Myapp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Myapp/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Myapp/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="app.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Myapp/app.json">
           <provider selected="true" editor-type-id="text-editor" />
@@ -77,7 +70,9 @@
       <path value="$PROJECT_DIR$/Myapp/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="160" />
+    <option name="y" value="81" />
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
@@ -134,33 +129,33 @@
       <option name="presentableId" value="Default" />
       <updated>1549895270211</updated>
       <workItem from="1549895273783" duration="746000" />
+      <workItem from="1549940051915" duration="414000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="746000" />
+    <option name="totallyTimeSpent" value="1160000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <frame x="160" y="81" width="1280" height="800" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25019857" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.50039715" side_tool="true" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50119144" side_tool="true" visible="true" weight="0.32859176" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49960285" visible="true" weight="0.32965517" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4988086" visible="true" weight="0.32859176" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +165,28 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Myapp/app.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Myapp/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Myapp/AppContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Myapp/app.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
