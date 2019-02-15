@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 
-import {View, Text, StyleSheet, Dimensions, Image} from "react-native";
+import {View, Text, StyleSheet, Dimensions, Image,ToastView} from "react-native";
 import Carouisel from "react-native-looped-carousel";
 
 // 获取屏幕宽度
@@ -14,6 +14,13 @@ const styles = StyleSheet.create({
         height: "100%"
     },
     // 导航条
+    navigators: {
+        height: 50,
+        backgroundColor: "orange",
+        flexDirection: "row",
+        alignItems: "center",
+        justifyContent: "space-around",
+    }
 
 })
 
@@ -26,6 +33,7 @@ export default class Home extends Component {
                 width, height: 250
             }
         }
+
     }
 
     render() {
@@ -37,10 +45,6 @@ export default class Home extends Component {
                     autoplay
                     bullets
                     arrows
-                    leftArrowText={'<'}
-                    leftArrowStyle={{color: 'red', fontSize: 30, margin: 20}}
-                    rightArrowText={'>'}
-                    rightArrowStyle={{color: "red", fontSize: 30, margin: 20}}
                 >
                     <View style={this.state.size}>
                         <Image
@@ -64,14 +68,31 @@ export default class Home extends Component {
                     </View>
                     <View style={this.state.size}>
                         <Image
-                        style={styles.images}
-                        source={{
-                            uri:
-                            "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2541240741.jpg"
-                        }}
+                            style={styles.images}
+                            source={{
+                                uri:
+                                    "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2541240741.jpg"
+                            }}
                         />
                     </View>
                 </Carouisel>
+                <View style={styles.navigators}>
+                    <Text>
+                        首页
+                    </Text>
+                    <Text onPress={() => {
+                         this.props.navigation.navigate('MoviesList')
+                    }}>
+                        电影
+                    </Text>
+                    <Text onPress={
+                        ()=>{
+                            this.props.navigation.navigate("Mine")
+                        }
+                    }>
+                        详情
+                    </Text>
+                </View>
             </View>
         )
     }
