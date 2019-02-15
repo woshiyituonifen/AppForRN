@@ -45,6 +45,10 @@ export default class Home extends Component {
                     autoplay
                     bullets
                     arrows
+                    leftArrowText={' '}
+                    // leftArrowStyle={{color: 'red', fontSize: 30, margin: 20}}
+                    rightArrowText={' '}
+                    // rightArrowStyle={{color: "red", fontSize: 30, margin: 20}}
                 >
                     <View style={this.state.size}>
                         <Image

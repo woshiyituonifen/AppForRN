@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d1708bc-237d-4abb-9fca-0f8bf4a75898" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Myapp/MoviesList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Myapp/MovieInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Myapp/RealMovieList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Myapp/AppContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myapp/AppContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Myapp/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myapp/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myapp/MineView.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myapp/MineView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Myapp/MoviesList.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myapp/MoviesList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Myapp/Setting.js" beforeDir="false" afterPath="$PROJECT_DIR$/Myapp/Setting.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myapp/ios/Myapp.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Myapp/ios/Myapp.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myapp/ios/Myapp.xcodeproj/xcshareddata/xcschemes/Myapp.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Myapp/ios/Myapp.xcodeproj/xcshareddata/xcschemes/Myapp.xcscheme" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,8 +41,8 @@
       <file leaf-file-name="AppContainer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Myapp/AppContainer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="63" column="14" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="14" />
+            <state relative-caret-position="353">
+              <caret line="75" column="10" lean-forward="true" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -50,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Setting.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Setting.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Myapp/Setting.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="26" column="73" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
+            <state relative-caret-position="384">
+              <caret line="59" column="37" lean-forward="true" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -62,13 +62,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoviesList.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MovieInfo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Myapp/MovieInfo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MoviesList.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Myapp/MoviesList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="24" column="125" selection-start-line="24" selection-start-column="125" selection-end-line="24" selection-end-column="125" />
+            <state relative-caret-position="133">
+              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RealMovieList.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Myapp/RealMovieList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="35" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,8 +101,8 @@
       <file leaf-file-name="Home.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Myapp/Home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="48" column="47" lean-forward="true" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
+            <state relative-caret-position="354">
+              <caret line="49" column="40" lean-forward="true" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -119,11 +143,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Myapp/AppContainer.js" />
         <option value="$PROJECT_DIR$/Myapp/MineView.js" />
         <option value="$PROJECT_DIR$/Myapp/Home.js" />
-        <option value="$PROJECT_DIR$/Myapp/Setting.js" />
+        <option value="$PROJECT_DIR$/Myapp/MovieInfo.js" />
+        <option value="$PROJECT_DIR$/Myapp/RealMovieList.js" />
         <option value="$PROJECT_DIR$/Myapp/MoviesList.js" />
+        <option value="$PROJECT_DIR$/Myapp/AppContainer.js" />
+        <option value="$PROJECT_DIR$/Myapp/Setting.js" />
       </list>
     </option>
   </component>
@@ -201,12 +227,12 @@
       <workItem from="1549895273783" duration="746000" />
       <workItem from="1549940051915" duration="414000" />
       <workItem from="1550114562413" duration="11323000" />
-      <workItem from="1550134650034" duration="12514000" />
+      <workItem from="1550134650034" duration="22080000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24997000" />
+    <option name="totallyTimeSpent" value="34563000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="6" />
@@ -357,26 +383,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Myapp/AppContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="63" column="14" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Myapp/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="48" column="47" lean-forward="true" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Myapp/MineView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -384,22 +390,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Myapp/Setting.js">
+    <entry file="file://$PROJECT_DIR$/Myapp/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="49" column="40" lean-forward="true" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Myapp/MovieInfo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
-          <caret line="26" column="73" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
           <folding>
-            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Myapp/RealMovieList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Myapp/AppContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="75" column="10" lean-forward="true" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Myapp/MoviesList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="24" column="125" selection-start-line="24" selection-start-column="125" selection-end-line="24" selection-end-column="125" />
+        <state relative-caret-position="133">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Myapp/Setting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="59" column="37" lean-forward="true" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>

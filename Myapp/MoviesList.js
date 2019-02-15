@@ -3,14 +3,13 @@ import {View, TouchableOpacity, Image, Text, ScrollView} from 'react-native'
 
 export default (props) => {
 
-    return <View>
+    return <View >
 
-        <TouchableOpacity style={{flexDirection: 'row', height: 35, alignItems: "center",justifyContent:'space-between'}}
-                          onPress={props.navigation.navigate('MovieListTwo', {
-                              title: props.title,
-                              movieType: props.movieType
-                          })}
+        <TouchableOpacity style={{flexDirection: 'row', height: 35, alignItems: "center",justifyContent:'space-between',marginTop:10,backgroundColor:'#fff'}}
 
+onPress={()=>{
+    props.navigation.navigate("RealMovieList",{title:props.title,movieType:props.movieType})
+}}
         >
             <Text style={{paddingLeft:10}}>{props.title}</Text>
             <Image style={{height:20,width:13,marginRight:10}}
@@ -18,7 +17,7 @@ export default (props) => {
             />
         </TouchableOpacity>
 
-        <ScrollView horizontal showsHorizontalScrollIndicator={false} >
+        <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{backgroundColor:'#fff'}} >
 
             {
                 props.movieList.map((item, index) => {
@@ -29,7 +28,7 @@ export default (props) => {
                             style={{width: 150, height: 220}}
                             source={{uri: item.images.small}}/>
                         <Text
-                            style={{fontSize: 12, marginTop: 12,alignItems:"center"}}
+                            style={{fontSize: 12, marginTop: 5,alignItems:"center",marginBottom:5}}
                         >
                             {item.title}
                         </Text>

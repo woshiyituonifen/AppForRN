@@ -4,6 +4,9 @@ import {createAppContainer, createBottomTabNavigator, createStackNavigator} from
 import Mine from './MineView';
 import Home from './Home';
 import Setting from './Setting';
+import MovieInfo from './MovieInfo'
+import RealMovieList from "./RealMovieList";
+
 
 const HomeStack = createStackNavigator({
     Home: {
@@ -21,8 +24,20 @@ const SettingStack = createStackNavigator({
     Setting: {
         screen: Setting,
         navigationOptions: {
-            headerTitle: "电影列表",
+            headerTitle: "电影",
 
+        }
+    },
+    MovieInfo:{
+        screen:MovieInfo,
+        navigationOptions:{
+            headerTitle:'详情',
+        }
+    },
+    RealMovieList:{
+        screen:RealMovieList,
+        navigationOptions:{
+            headerTitle:'电影列表'
         }
     }
 })
@@ -101,7 +116,7 @@ const TabBar = createBottomTabNavigator({
 },
     {
         tabBarOptions:{
-            activeTintColor:"red",
+            activeTintColor:"orange",
             inactiveTintColor:"black"
         }
 
